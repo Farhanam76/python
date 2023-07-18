@@ -27,6 +27,7 @@ if mark >= 65 and mark < 85:
     print('pass')
 if mark < 65:
     print('fail')
+
 # while loop exercise 
 count = 1
 

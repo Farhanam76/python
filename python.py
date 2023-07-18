@@ -27,6 +27,13 @@ if mark >= 65 and mark < 85:
     print('pass')
 if mark < 65:
     print('fail')
+# while loop exercise 
+count = 1
+
+while count <= 5:
+    name = str(input("what is your name? "))
+    print(name,"is awesome!")
+    count += 1
 
 
 

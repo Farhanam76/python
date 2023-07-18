@@ -28,6 +28,11 @@ if mark >= 65 and mark < 85:
 if mark < 65:
     print('fail')
 
+ 
+
+
+
+
 # while loop exercise 
 count = 1
 
@@ -35,6 +40,15 @@ while count <= 5:
     name = str(input("what is your name? "))
     print(name,"is awesome!")
     count += 1
+for i in range(10, 21, 2):
+    print(i)
+#practice 
+1) numbers = []
+for num in range(1500-2700):
+    if (num%7==0) and (num%5==0):
+        numbers.append(str(num))
+        print (','.join(numbers))
+
 
 
 
